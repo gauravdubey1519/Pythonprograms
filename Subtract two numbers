@@ -1,0 +1,7 @@
+def subtraction(p, q):
+    z = p - q
+    return z
+x = int(input("Enter first number:"))
+y = int(input("Enter second number:"))
+result = subtraction(x, y)
+print("Subtraction of two numbers:", result)
